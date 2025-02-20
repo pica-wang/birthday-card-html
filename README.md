@@ -1,4 +1,4 @@
-# birthday-card-html
+# 生日贺卡-HTML版
 HTML生日祝福代码，要将全部文件发给对方才能够查看哦
 
 # 修改教程
