@@ -1,6 +1,8 @@
 # 生日贺卡-HTML版
 HTML生日祝福代码，要将全部文件发给对方才能够查看哦(点击**index.html**即可拆卡)
 
+> If you cannot speak Chinese ,then you can scroll down to read the English edition
+
 ## 修改教程
 
 > 搬运自B站教程：[HTML生日祝福代码 超有高级感的生日祝福 零基础小白也能学会](https://www.bilibili.com/list/watchlater?bvid=BV1wy4y1c7Nh&oid=790382107)
@@ -135,3 +137,100 @@ You can click the Preview link to take a look at your changes.
 
 
 
+
+# Birthday Card - HTML Version
+HTML birthday greeting code, you need to send all files to the other party to view it (click **index.html** to open the card)
+
+## Modification Tutorial
+
+> From Bilibili tutorial: [HTML Birthday Greeting Code - Very High-End Feeling Birthday Greetings - Zero Basis Beginners Can Learn](https://www.bilibili.com/list/watchlater?bvid=BV1wy4y1c7Nh&oid=790382107)
+
+### Modify Username/Password/Prompt Information
+
+File path: js/jquery-1.8.4.min.js
+
+- Line 4: Modify *username* | *password*;
+
+- Line 13: Modify *prompt information*.
+
+Modification completed!
+
+### Modify Login Page (Remember to adjust the display time after modification to ensure complete information display)
+
+File path: js/indexl.js
+
+- Line 14: Modify *login interface text content*;
+
+- Line 21: Modify *display duration of information*.
+
+Modification completed!
+
+### Birthday Cake Interface (Modify cake color/questions/answers)
+
+File path: js/jquery-1.8.4.min.js
+
+- Line 4: Modify *username* | *password*;
+
+- Line 13: Modify *prompt information*.
+
+Modification completed!
+
+### Modify Image Paths
+
+File path: index.html
+
+- Replace all image paths in the format of `images/` to your actual image file paths.
+
+Example:
+```
+Original: <img src="images/image1.jpg" alt="Image">
+Modified: <img src="[YourImagePath]/image1.jpg" alt="Image">
+```
+
+### Modify Card Styles
+
+File path: style.css
+
+- Adjust the following properties as needed:
+
+  - `body { background-color: #ffffff; }` → Change color to your desired background
+  - `.card { width: 300px; }` → Adjust card size
+  - `.button { padding: 10px 20px; }` → Modify button dimensions
+
+### Personal Information Section
+
+File path: index.html
+
+- Replace all placeholder text in the format of `[YourInformation]` with your actual content.
+
+Example:
+```
+Original: <p>Name: [YourName]</p>
+Modified: <p>Name: [YourActualName]</p>
+```
+
+## Card Design Preview
+
+### Front Page
+![Preview](https://i0.hdslb.com/bfs/new_dyn/watermark/f9c05f31dff38dd9a4ded909107232fd1724021548.jpg@992w_1084h.avif)
+
+### Inside Page
+![Inside](https://i0.hdslb.com/bfs/new_dyn/watermark/f9c05f31dff38dd9a4ded909107232fd1724021548.jpg@992w_1084h.avif)
+
+## Final Assembly
+
+### Step 1: Combine Files
+- Place all files (HTML, CSS, JS, images) in the same folder.
+
+### Step 2: Test the Card
+- Open index.html in a web browser to ensure everything works properly.
+
+### Step 3: Customize Further
+- Make additional modifications as needed based on personal preferences.
+
+---
+
+<!---
+pica-wang/pica-wang is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+-->
